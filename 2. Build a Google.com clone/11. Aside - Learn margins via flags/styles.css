@@ -1,15 +1,19 @@
 .red {
-    background: #c71226;
-    height: 100px;
+  background: #c71226;
+  height: 100px;
+  /* Challenge: add 100px of margin on the bottom of the red box */
+  /* margin-bottom: 100px; */
 }
 
 .blue {
-    background: #0d1b88;
-    height: 100px;
+  background: #0d1b88;
+  height: 100px;
+  /* Challenge: create the flag of Gambia but only by applying styles to the blue box */
+
+  margin: 30px 0;
 }
 
 .green {
-    background: #397327;
-    height: 100px;
+  background: #397327;
+  height: 100px;
 }
-
