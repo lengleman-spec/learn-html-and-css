@@ -1,12 +1,17 @@
 .card {
-    color: #222222;
-    background: lightgray;
-    width: 300px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+  color: #222222;
+  background: lightgray;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /*  CHALLENGE: fix the code to match the picture on the slide */
+  border: 4px solid #222222;
+  border-radius: 18px;
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
