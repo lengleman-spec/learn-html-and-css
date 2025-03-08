@@ -1,15 +1,19 @@
 body {
-    margin: 20px;
+  margin: 20px;
+}
+
+.border-utility {
+  border: 1px dotted blue;
 }
 
 .avatar {
-    width: 150px;
+  width: 150px;
 }
 
 .card {
-    border: 1px dotted blue;
-    padding: 20px;
-    display: flex;
+  border: border-utility;
+  padding: 20px;
+  display: flex;
 }
 
 /*
