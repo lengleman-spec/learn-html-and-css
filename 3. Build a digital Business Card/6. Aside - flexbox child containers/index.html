@@ -1,24 +1,33 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <h1>Upgrade to Pro</h1>
-        
-        <div class="pricing">
-            <h2>For individuals</h2>
-            <ul>
-                <li>1 gb</li>
-                <li>No support</li>
-            </ul>
-            <button>Buy now</button> 
-            <h2>For enterprise</h2>
-                <ul>
-                    <li>10 gb</li>
-                <li>Priority support</li>
-                </ul>
-            <button>Contact us</button>
-        </div>
-        
-    </body>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Upgrade to Pro</h1>
+
+    <!--  Flexbox only turns it's direct immediate children into flex items, not any child nested deeper. So, we added two more <divs> to group the lists separately, creating 2 columns as we want  -->
+    <div class="pricing">
+      <div>
+        <h2>For individuals</h2>
+        <ul>
+          <li>1 gb</li>
+          <li>No support</li>
+        </ul>
+        <button>Buy now</button>
+      </div>
+
+      <div>
+        <h2>For enterprise</h2>
+        <ul>
+          <li>10 gb</li>
+          <li>Priority support</li>
+        </ul>
+        <button>Contact us</button>
+      </div>
+    </div>
+  </body>
 </html>
