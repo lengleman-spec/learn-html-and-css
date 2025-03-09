@@ -1,4 +1,10 @@
 body {
-    margin: 10px;
+  margin: 10px;
+  text-align: center;
+
+  color: lightcoral;
+  font-family: "Lucida Sans", sans-serif
+  font-size: 1.5rem;
 }
 
+/*  Challenge: play around with the list of inherited properties."
