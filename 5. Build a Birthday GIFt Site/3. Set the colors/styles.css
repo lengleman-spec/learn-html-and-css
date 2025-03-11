@@ -8,11 +8,16 @@ white: #ffffff
 */
 
 body {
-    text-align: center;
-    font-family: 'Happy Monkey', cursive;
+  text-align: center;
+  font-family: "Happy Monkey", cursive;
+  background-color: #a2d2ff;
+  color: #ffffff;
 }
 
 #bff-img {
-    width: 150px;
-    border-radius: 50%;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid #efb0c9;
 }
+
+/* Solution: I added the background-color, color, and border properties to achieve the same img */
