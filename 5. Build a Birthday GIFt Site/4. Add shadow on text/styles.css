@@ -1,8 +1,9 @@
 body {
-    text-align: center;
-    font-family: 'Happy Monkey', cursive;
-    background: #a2d2ff;
-    color: #ffffff;
+  text-align: center;
+  font-family: "Happy Monkey", cursive;
+  background: #a2d2ff;
+  color: #ffffff;
+  text-shadow: 0 0 1px black;
 }
 
 /*
@@ -14,7 +15,9 @@ the blur to 1px and the color to black.
 */
 
 #bff-img {
-    width: 150px;
-    border-radius: 50%;
-    border: 6px solid #EFB0C9;
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #efb0c9;
 }
+
+/* Solution: I added the text-shadow property without shadow, but with blur */
