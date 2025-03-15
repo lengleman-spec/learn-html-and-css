@@ -19,7 +19,6 @@ DARK BLUE: #1D3557
 
 body {
   margin: 0;
-  text-align: center;
   font-family: "Titillium Web", monospace;
   background: linear-gradient(var(--AQUA), var(--LIGHTBLUE));
 }
@@ -68,6 +67,7 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .zoo,
@@ -82,18 +82,47 @@ set to "auto". this only works because both <h3> and <p> are block level element
 .activities h3,
 .activities p {
   max-width: 300px;
-  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .activities h3 {
   font-size: 20px;
+  margin-top: 30px;
 }
 
-#header-activities {
+#header-activities,
+#header-guide {
   font-size: 30px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 40px;
+}
+
+/*  GUIDE SECTION  */
+
+/*  used margin:auto to center the card in the section below  */
+.card {
+  /* border: 5px solid var(--AQUA); */
+  display: flex;
+  align-items: center;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: var(--AQUA);
+  padding: 20px 10px;
+  border-radius: 15px;
+}
+
+/*  used the order property to swap the image in front of / to the left of the text. this works because all elements by default have an order value of 0.  */
+.card-info {
+  text-align: center;
+  order: 1;
+  margin-left: 20px;
+}
+
+.card img {
+  height: auto;
+  width: 200px;
 }
