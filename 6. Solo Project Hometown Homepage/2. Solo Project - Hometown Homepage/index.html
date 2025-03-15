@@ -1,30 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        
-        <!-- HERO SECTION -->
-        <div>
-            <h1>Visit Torshov</h1>
-            <h2>Enjoy culture and sports in this vibrant district close to the center of Oslo.</h2>
-        </div>
-        
-        <!-- ACTIVITIES SECTION -->
-        <div>
-            <h3>Top three activities to do at Torshov</h3>
-            <img src="images/park.jpg">
-            <img src="images/theatre.jpg">
-            <img src="images/sports.jpg">
-        </div>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HERO SECTION (use the text-align property)-->
+    <div class="hero">
+      <h1>Visit Cincinnati, Ohio</h1>
+      <h2>Enjoy culture and explore in the vibrant Queen City.</h2>
+    </div>
 
-        <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
-            <h4>Per Harald Borgen</h4>
-            <img src="images/per.jpg">
-        </div>
-    </body>
+    <!-- ACTIVITIES SECTION (use flexbox)-->
+    <!-- <h3 id="header-activities">Top three activities to do in Cincinnati</h3> -->
+    <h3 id="header-activities">Top three activities to do in Cincinnati</h3>
+    <div class="activities">
+      <div class="zoo">
+        <img src="images/zoo_entrance.jpeg" alt="Cincinnati Zoo" />
+        <h3>The Cincinnati Zoo</h3>
+        <p>
+          Discover wild adventures at the Cincinnati Zoo & Botanical Garden - a
+          must-visit destionation for families, animal lovers, and nature
+          enthusiasts!
+        </p>
+      </div>
+      <div class="kings-island">
+        <img src="images/kings_island.jpeg" />
+        <h3>Kings Island</h3>
+        <p>
+          Experience non-stop thrills and family fun at Kings Island,
+          Cincinnati's premier amusement and water park destination!
+        </p>
+      </div>
+      <div class="aquarium">
+        <img src="images/aquarium.jpeg" />
+        <h3>The Newport Aquarium</h3>
+        <p>
+          Dive into adventure at the Newport Aquarium, just across the Ohio
+          River in Newport, KY.
+        </p>
+      </div>
+    </div>
+
+    <!-- GUIDE SECTION -->
+    <div class="card">
+      <h3>Your guide</h3>
+      <p>
+        "I have lived at Torshov for over 30 years, so I can show you all of its
+        best parts and hidden secrets."
+      </p>
+      <h4>Per Harald Borgen</h4>
+      <img src="images/per.jpg" />
+    </div>
+  </body>
 </html>
