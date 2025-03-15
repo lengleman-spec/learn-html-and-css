@@ -5,8 +5,9 @@ LIGHT: #F1FAEE
 AQUA: #A8DADC
 LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
-
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 
 :root {
   --RED: #e63946;
@@ -19,17 +20,13 @@ DARK BLUE: #1D3557
 body {
   margin: 0;
   text-align: center;
+  font-family: "Titillium Web", monospace;
   background: linear-gradient(var(--AQUA), var(--LIGHTBLUE));
 }
 
-/* i am using the margin: auto hack to center the <img>s inside their <div>s 
-
-i also changed the width of imgs from 100px*/
+/* i changed the width of imgs from 100px*/
 img {
   width: 300px;
-
-  display: block;
-  margin: auto;
   border: 3px solid var(--DARKBLUE);
   border-radius: 50%;
 }
@@ -71,7 +68,6 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* border: 4px solid red; */
 }
 
 .zoo,
@@ -81,13 +77,23 @@ img {
   flex-direction: column;
 }
 
+/*  used the margin-right and margin-left property
+set to "auto". this only works because both <h3> and <p> are block level elements and have an explicitly stated width  */
+.activities h3,
 .activities p {
-  overflow-wrap: break-word;
   max-width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.activities h3 {
+  font-size: 20px;
 }
 
 #header-activities {
   font-size: 30px;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 40px;
 }
